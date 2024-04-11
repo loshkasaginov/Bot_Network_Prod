@@ -1,0 +1,173 @@
+2024-04-07 12:32:46,859 - example_logger - ERROR - Это сообщение об ошибке
+2024-04-07 12:32:46,859 - example_logger - CRITICAL - Это критическое сообщение
+2024-04-07 12:35:44,112 - example_logger - ERROR - Это сообщение об ошибке
+2024-04-07 12:35:44,112 - example_logger - CRITICAL - Это критическое сообщение
+2024-04-07 12:36:56,953 - example_logger - ERROR - Это сообщение об ошибке
+2024-04-07 12:36:56,953 - example_logger - CRITICAL - Это критическое сообщение
+2024-04-07 12:37:38,737 - example_logger - DEBUG - Это сообщение отладки
+2024-04-07 12:37:38,737 - example_logger - INFO - Это информационное сообщение
+2024-04-07 12:37:38,737 - example_logger - WARNING - Это предупреждение
+2024-04-07 12:37:38,737 - example_logger - ERROR - Это сообщение об ошибке
+2024-04-07 12:37:38,737 - example_logger - CRITICAL - Это критическое сообщение
+2024-04-07 12:37:42,928 - example_logger - INFO - пользователь tg://user?id=940848268 нажал посмотреть все заказы
+2024-04-07 12:39:51,049 - example_logger - INFO - user tg://user?id=940848268 look all orders
+2024-04-07 12:43:38,486 - example_logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-07 12:43:38,497 - example_logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-07 12:51:19,580 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=lol, order_number=666
+2024-04-07 12:51:19,595 - example_logger - INFO - user tg://user?id=940848268 create_order status OK (201)
+2024-04-07 12:51:55,200 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=lol, order_number=666
+2024-04-07 12:51:55,220 - example_logger - WARNING - user tg://user?id=940848268 create_order status 500
+2024-04-07 12:56:12,216 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=lol, order_number=666
+2024-04-07 12:56:12,367 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400
+2024-04-07 12:57:59,586 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=lol, order_number=123
+2024-04-07 12:57:59,729 - example_logger - INFO - user tg://user?id=940848268 create_order status OK (201)
+2024-04-07 12:58:10,489 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=de, order_number=431
+2024-04-07 12:58:10,502 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400
+2024-04-07 13:20:04,382 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=dwq, order_number=23
+2024-04-07 13:20:04,495 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400 details: {'detail': 'ENGINEER_NOT_FOUNT'}
+2024-04-07 13:21:45,554 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=lol, order_number=666
+2024-04-07 13:21:45,565 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400 details: ORDER_ALREADY_EXISTS
+2024-04-07 13:22:16,725 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=daca, order_number=666
+2024-04-07 13:22:16,735 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400 details: ORDER_ALREADY_EXISTS
+2024-04-07 13:22:39,377 - example_logger - INFO - user tg://user?id=940848268 create_order params: engineers_name=daw, order_number=999
+2024-04-07 13:22:39,387 - example_logger - WARNING - user tg://user?id=940848268 create_order status 400 details: ENGINEER_NOT_FOUNT
+2024-04-07 13:29:47,469 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=23, link=23, name=lol
+2024-04-07 13:29:47,544 - example_logger - INFO - user tg://user?id=940848268 create_engineer status OK (201)
+2024-04-07 13:30:08,417 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=23, link=23, name=lol
+2024-04-07 13:35:54,209 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=23, link=23, name=lol
+2024-04-07 13:37:22,254 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=23, link=23, name=lol
+2024-04-07 13:37:22,382 - example_logger - WARNING - user tg://user?id=940848268 create_engineer status 400 details: ENGINEER_ALREADY_EXISTS
+2024-04-07 13:37:58,041 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=100, link=100, name=100
+2024-04-07 13:37:58,058 - example_logger - INFO - user tg://user?id=940848268 create_engineer status OK (201)
+2024-04-07 13:38:21,996 - example_logger - INFO - user tg://user?id=940848268 create_engineer params: engineers_number=100, link=100, name=99
+2024-04-07 13:38:22,007 - example_logger - WARNING - user tg://user?id=940848268 create_engineer status 400 details: ENGINEER_ALREADY_EXISTS
+2024-04-07 13:49:18,481 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=23542534
+2024-04-07 13:49:18,618 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 13:49:22,826 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=321
+2024-04-07 13:49:22,833 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 13:52:38,630 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=432432
+2024-04-07 13:52:38,818 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 13:53:25,399 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=523324
+2024-04-07 13:53:25,576 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 13:53:25,576 - example_logger - WARNING - user tg://user?id=940848268 del_engineer status 400 details: THERE_IS_NO_ENGINEER_WITH_THIS_NAME
+2024-04-07 13:53:49,952 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=100
+2024-04-07 13:53:49,966 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 13:53:49,966 - example_logger - WARNING - user tg://user?id=940848268 del_engineer status 400 details: ENGINEER_HASNT_LOGGED_IN_YET
+2024-04-07 13:55:19,010 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=100
+2024-04-07 13:56:17,373 - example_logger - INFO - user tg://user?id=940848268 del_engineer params: number=100
+2024-04-07 13:56:17,553 - example_logger - INFO - user tg://user?id=940848268 del_engineer status OK (204)
+2024-04-07 14:17:44,694 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: number=1
+2024-04-07 14:17:44,710 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor status OK (200)
+2024-04-07 14:21:02,918 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: number=123231
+2024-04-07 14:21:02,938 - logger - WARNING - user tg://user?id=940848268 get_current_engineer_by_tutor status 404, details: NOT_FOUND
+2024-04-07 14:23:13,691 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: number=1
+2024-04-07 14:23:13,847 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor status OK (200)
+2024-04-07 14:33:48,770 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor params: engineers_number=123412, amount=12
+2024-04-07 14:33:48,781 - logger - WARNING - user tg://user?id=940848268 make_penalty_tutor status 400 details: THERE_IS_NO_ENGINEER_WITH_THIS_NUMBER
+2024-04-07 14:34:15,492 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: number=1
+2024-04-07 14:34:15,509 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor status OK (200)
+2024-04-07 14:34:27,597 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor params: engineers_number=1, amount=12
+2024-04-07 14:34:27,614 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor status OK (201)
+2024-04-07 14:44:24,491 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor params: engineers_number=1
+2024-04-07 14:45:17,056 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor params: engineers_number=1
+2024-04-07 14:45:18,507 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor status OK (201)
+2024-04-07 14:45:33,510 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor params: engineers_number=1134341, amount=213
+2024-04-07 14:45:33,523 - logger - WARNING - user tg://user?id=940848268 make_penalty_tutor status 400 details: THERE_IS_NO_ENGINEER_WITH_THIS_NUMBER
+2024-04-07 14:45:48,987 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor params: engineers_number=1321
+2024-04-07 14:45:48,996 - logger - WARNING - user tg://user?id=940848268 get_penalty_tutor status 400 details: THERE_IS_NO_ENGINEER_WITH_THIS_NUMBER
+2024-04-07 14:49:37,290 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-07 14:49:37,484 - logger - INFO - user tg://user?id=940848268 get_engineers status OK (200)
+2024-04-07 15:00:33,753 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-07 15:00:34,009 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-07 15:00:36,229 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: order_number=123
+2024-04-07 15:00:36,280 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-07 15:01:07,581 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: order_number=123
+2024-04-07 15:01:07,595 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-07 15:01:46,054 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=123
+2024-04-07 15:01:46,070 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-07 15:01:59,419 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=12312321
+2024-04-07 15:01:59,428 - logger - WARNING - user tg://user?id=940848268 get_full_order_by_tutor status 400, details: THERE_IS_NO_ORDER_WITH_THIS_NUMBER
+2024-04-07 15:06:41,528 - logger - INFO - user tg://user?id=940848268 get_stages_tutor
+2024-04-07 15:06:41,748 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)
+2024-04-07 15:14:12,529 - logger - INFO - user tg://user?id=940848268 get_stages_agreement_tutor
+2024-04-07 15:14:12,542 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)
+2024-04-07 17:58:37,574 - logger - INFO - user tg://user?id=384951072 create_engineer params: engineers_number=95, link=@eng, name=eng
+2024-04-07 17:58:37,588 - logger - INFO - user tg://user?id=384951072 create_engineer status OK (201)
+2024-04-07 18:01:07,166 - logger - INFO - user tg://user?id=384951072 create_order params: engineers_name=eng, order_number=765
+2024-04-07 18:01:07,179 - logger - INFO - user tg://user?id=384951072 create_order status OK (201)
+2024-04-07 18:01:14,614 - logger - INFO - user tg://user?id=384951072 get_engineers
+2024-04-07 18:01:14,622 - logger - INFO - user tg://user?id=384951072 get_engineers status OK (200)
+2024-04-07 18:01:20,319 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor params: engineers_number=95
+2024-04-07 18:01:20,327 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor status OK (200)
+2024-04-07 18:01:27,870 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor params: order_number=765
+2024-04-07 18:01:27,904 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor status OK (200)
+2024-04-07 18:02:17,356 - logger - INFO - user tg://user?id=384951072 get_stages_tutor
+2024-04-07 18:02:17,371 - logger - INFO - user tg://user?id=384951072 get_stages_tutor status OK (200)
+2024-04-07 18:02:21,854 - logger - INFO - user tg://user?id=384951072 get_stages_agreement_tutor
+2024-04-07 18:02:21,865 - logger - INFO - user tg://user?id=384951072 get_stages_tutor status OK (200)
+2024-04-07 18:02:50,085 - logger - INFO - user tg://user?id=384951072 get_short_orders_by_tutor
+2024-04-07 18:02:50,095 - logger - INFO - user tg://user?id=384951072 get_short_orders_by_tutor status OK (200)
+2024-04-07 18:02:52,573 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor params: order_number=765
+2024-04-07 18:02:52,584 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor status OK (200)
+2024-04-07 18:03:47,501 - logger - INFO - user tg://user?id=384951072 get_stages_tutor
+2024-04-07 18:03:47,511 - logger - INFO - user tg://user?id=384951072 get_stages_tutor status OK (200)
+2024-04-07 18:07:04,103 - logger - INFO - user tg://user?id=384951072 get_short_orders_by_tutor
+2024-04-07 18:07:04,111 - logger - INFO - user tg://user?id=384951072 get_short_orders_by_tutor status OK (200)
+2024-04-07 18:07:06,426 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor params: order_number=765
+2024-04-07 18:07:06,450 - logger - INFO - user tg://user?id=384951072 get_full_order_by_tutor status OK (200)
+2024-04-07 18:07:44,316 - logger - INFO - user tg://user?id=384951072 get_stages_tutor
+2024-04-07 18:07:44,328 - logger - INFO - user tg://user?id=384951072 get_stages_tutor status OK (200)
+2024-04-07 18:08:03,578 - logger - INFO - user tg://user?id=384951072 get_engineers
+2024-04-07 18:08:03,584 - logger - INFO - user tg://user?id=384951072 get_engineers status OK (200)
+2024-04-07 18:08:05,415 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor params: engineers_number=1
+2024-04-07 18:08:05,422 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor status OK (200)
+2024-04-07 18:08:07,132 - logger - INFO - user tg://user?id=384951072 get_engineers
+2024-04-07 18:08:07,138 - logger - INFO - user tg://user?id=384951072 get_engineers status OK (200)
+2024-04-07 18:08:09,423 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor params: engineers_number=95
+2024-04-07 18:08:09,429 - logger - INFO - user tg://user?id=384951072 get_current_engineer_by_tutor status OK (200)
+2024-04-07 18:08:20,042 - logger - INFO - user tg://user?id=384951072 make_penalty_tutor params: engineers_number=95, amount=500
+2024-04-07 18:08:20,052 - logger - INFO - user tg://user?id=384951072 make_penalty_tutor status OK (201)
+2024-04-07 21:05:49,924 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=1
+2024-04-07 21:05:50,203 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-07 23:54:50,358 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-07 23:54:50,565 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-07 23:54:55,115 - logger - INFO - user tg://user?id=940848268 get_stages_tutor
+2024-04-07 23:54:55,142 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)
+2024-04-07 23:55:04,447 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-07 23:55:04,453 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-07 23:55:06,141 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=123
+2024-04-07 23:55:06,163 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-08 22:00:57,888 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-08 22:00:57,911 - logger - WARNING - user tg://user?id=940848268 get_engineers status 401 details: Token invalid: Signature has expired
+2024-04-08 22:01:12,730 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-08 22:01:12,742 - logger - INFO - user tg://user?id=940848268 get_engineers status OK (200)
+2024-04-08 22:12:34,679 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:17:15,111 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:17:37,408 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:17:57,671 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:17:58,362 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor status OK (200)
+2024-04-08 22:18:30,519 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=47
+2024-04-08 22:18:30,529 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor status OK (200)
+2024-04-08 22:44:31,122 - logger - INFO - user tg://user?id=940848268 get_stages_tutor
+2024-04-08 22:44:31,148 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)
+2024-04-08 22:44:33,356 - logger - INFO - user tg://user?id=940848268 get_stages_agreement_tutor
+2024-04-08 22:44:33,374 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)
+2024-04-08 22:44:41,747 - logger - INFO - user tg://user?id=940848268 approve_agreement_tutor params: order_number=666
+2024-04-08 22:44:41,758 - logger - INFO - user tg://user?id=940848268 approve_agreement_tutor status OK (201)
+2024-04-08 22:45:19,881 - logger - INFO - user tg://user?id=940848268 get_stages_prepayment_tutor
+2024-04-08 22:45:19,895 - logger - INFO - user tg://user?id=940848268 get_stages_prepayment_tutor status OK (200)
+2024-04-08 22:45:25,940 - logger - INFO - user tg://user?id=940848268 approve_prepayment_tutor params: order_number=666
+2024-04-08 22:45:25,949 - logger - INFO - user tg://user?id=940848268 approve_prepayment_tutor status OK (200)
+2024-04-08 22:46:22,702 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:52:30,733 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:54:53,280 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 22:55:22,845 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 23:04:52,846 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 23:10:58,834 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 23:11:22,766 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 23:11:31,800 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor params: state_engineers_number=2
+2024-04-08 23:11:32,025 - logger - INFO - user tg://user?id=940848268 get_current_state_engineer_by_tutor status OK (200)
+2024-04-09 01:01:49,563 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=666
+2024-04-09 01:01:49,750 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-09 01:02:22,213 - logger - INFO - Tutor bot started
+2024-04-09 01:02:22,213 - logger - INFO - Tutor bot refresh_access_tokens
