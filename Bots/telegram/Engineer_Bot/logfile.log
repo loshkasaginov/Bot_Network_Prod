@@ -6,3 +6,11 @@
 2024-04-09 01:03:41,684 - logger - INFO - user tg://user?id=940848268 get_agreement_orders_engineer status OK (200)
 2024-04-09 01:04:11,942 - logger - INFO - user tg://user?id=940848268 get_penalty_engineer
 2024-04-09 01:04:12,072 - logger - INFO - user tg://user?id=940848268 get_penalty_engineer status OK (200)
+2024-04-12 12:01:52,620 - logger - INFO - Engineer bot started
+2024-04-12 12:01:52,621 - logger - INFO - Engineer bot refresh_access_tokens
+2024-04-12 21:59:30,356 - logger - INFO - Engineer bot started
+2024-04-12 21:59:30,356 - logger - INFO - Engineer bot refresh_access_tokens
+2024-04-12 22:07:18,594 - logger - INFO - user tg://user?id=940848268 engineer_auth params: user_name=lol
+2024-04-12 22:07:18,825 - logger - INFO - user tg://user?id=940848268 engineer_auth status OK (201)
+2024-04-12 22:07:18,825 - logger - INFO - user lol auth_get_access_token
+2024-04-12 22:07:19,048 - logger - INFO - user lol auth_get_access_token status: 200

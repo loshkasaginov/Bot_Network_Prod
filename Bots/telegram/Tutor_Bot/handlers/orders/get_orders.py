@@ -1,21 +1,18 @@
 from datetime import datetime
-from aiogram import Router, F, types
+
+from aiogram import Router, F
 from aiogram.fsm.context import FSMContext
+from aiogram.types import Message
+
 from Bots.logger.logger import logger
-from aiogram.fsm.state import StatesGroup, State
-from aiogram.types import Message, ReplyKeyboardRemove
+from Bots.telegram.Tutor_Bot.keyboards.main_keyboard import orders_tutor_kb
 from Bots.telegram.asinc_requests.asinc_requests import get_short_orders_by_tutor
-from Bots.telegram.Tutor_Bot.keyboards.main_keyboard import main_tutor_kb, orders_tutor_kb
 
 router = Router()
 
 
 @router.message(F.text.lower() == "посмотреть все заказы")
 async def get_all_engineers(message: Message, state: FSMContext):
-    await message.answer(
-        text="сдохни сдохни сдохни сдохни.",
-        reply_markup=orders_tutor_kb()
-    )
     logger.info(f'user {str(message.from_user.url)} get_short_orders_by_tutor')
     await state.clear()
     response = await get_short_orders_by_tutor(str(message.from_user.url))

@@ -25,6 +25,7 @@ def orders_tutor_kb() -> ReplyKeyboardMarkup:
     kb.button(text="добавить заказ")
     kb.button(text="посмотреть заказ")
     kb.button(text="посмотреть все заказы")
+    kb.button(text="посмотреть все заказы по дате")
     kb.button(text="назад")
     kb.adjust(1)
     return kb.as_markup(resize_keyboard=True)

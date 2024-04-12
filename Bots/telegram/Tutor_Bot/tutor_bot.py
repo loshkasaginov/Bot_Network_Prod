@@ -1,21 +1,21 @@
 import asyncio
-import logging
-import aioschedule as schedule
-from Bots.logger.logger import logger
-from datetime import datetime, timedelta
-from aiogram import Bot, Dispatcher
-from aiogram.fsm.storage.memory import MemoryStorage
-from Bots.telegram.Tutor_Bot.handlers import auth, keyboards_logic
-from Bots.telegram.Tutor_Bot.handlers.engineers import create_engineer, get_engineers, delete_engineer, get_current_engineer
-from Bots.telegram.Tutor_Bot.handlers.orders import order_create, get_orders, get_current_order
-from Bots.telegram.Tutor_Bot.handlers.stationary import create_state_engineer, delete_satate_engineer, get_state_engineers, \
-    get_state_orders, get_current_state_engineer
-from Bots.telegram.Tutor_Bot.handlers.stages import agreements, prepayments, outlays, report
-from Bots.telegram.asinc_requests.asinc_requests import refresh_access_tokens
-from Bots.DB.sqlite_db import Db
-from dotenv import load_dotenv
 import os
 
+from aiogram import Bot, Dispatcher
+from aiogram.fsm.storage.memory import MemoryStorage
+from dotenv import load_dotenv
+
+from Bots.DB.sqlite_db import Db
+from Bots.logger.logger import logger
+from Bots.telegram.Tutor_Bot.handlers import auth, keyboards_logic
+from Bots.telegram.Tutor_Bot.handlers.engineers import create_engineer, get_engineers, delete_engineer, \
+    get_current_engineer
+from Bots.telegram.Tutor_Bot.handlers.orders import order_create, get_orders, get_current_order, get_orders_by_date
+from Bots.telegram.Tutor_Bot.handlers.stages import agreements, prepayments, outlays, report
+from Bots.telegram.Tutor_Bot.handlers.stationary import create_state_engineer, delete_satate_engineer, \
+    get_state_engineers, \
+    get_state_orders, get_current_state_engineer
+from Bots.telegram.asinc_requests.asinc_requests import refresh_access_tokens
 
 
 async def create_db():
@@ -52,6 +52,7 @@ async def main():
     dp.include_router(outlays.router)
     dp.include_router(report.router)
     dp.include_router(get_current_state_engineer.router)
+    dp.include_router(get_orders_by_date.router)
     logger.info(f'Tutor bot started')
     await asyncio.gather(
         dp.start_polling(bot),

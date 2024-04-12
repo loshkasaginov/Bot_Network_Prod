@@ -1,12 +1,9 @@
-import asyncio
-from aiogram import Router, F, types
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import StatesGroup, State
-from Bots.logger.logger import logger
-from aiogram.types import Message, ReplyKeyboardRemove
-from Bots.telegram.asinc_requests.asinc_requests import get_tutors
-from Bots.telegram.SuperUser_Bot.keyboards.main_keyboard import main_superuser_kb
+from aiogram import Router, F
+from aiogram.types import Message
 
+from Bots.logger.logger import logger
+from Bots.telegram.SuperUser_Bot.keyboards.main_keyboard import main_superuser_kb
+from Bots.telegram.asinc_requests.asinc_requests import get_tutors
 
 router = Router()
 
@@ -22,7 +19,7 @@ async def get_all_tutors(message: Message):
         for tutor in response:
             tutor_info = f"Номер: {tutor['tutors_number']}  " \
                          f"Имя: {tutor['name']}  " \
-                         f"Ссылка: {tutor['link']}\n"
+                         f"Ссылка: {tutor['link']}\n\n"
             message_text += tutor_info
         await message.answer(
             text=message_text,

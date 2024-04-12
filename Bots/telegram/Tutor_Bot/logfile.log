@@ -171,3 +171,73 @@
 2024-04-09 01:01:49,750 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
 2024-04-09 01:02:22,213 - logger - INFO - Tutor bot started
 2024-04-09 01:02:22,213 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 12:02:08,654 - logger - INFO - Tutor bot started
+2024-04-12 12:02:08,656 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:47:05,730 - logger - INFO - Tutor bot started
+2024-04-12 13:47:05,731 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:47:37,947 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 13:48:10,114 - logger - INFO - Tutor bot started
+2024-04-12 13:48:10,114 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:48:23,195 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:48:23,203 - logger - WARNING - user tg://user?id=940848268 get_report_tutor_by_date status 405 details: Method Not Allowed
+2024-04-12 13:49:27,928 - logger - INFO - Tutor bot started
+2024-04-12 13:49:27,929 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:49:41,227 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:49:41,234 - logger - WARNING - user tg://user?id=940848268 get_report_tutor_by_date status 405 details: Method Not Allowed
+2024-04-12 13:50:39,335 - logger - INFO - Tutor bot started
+2024-04-12 13:50:39,335 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:50:51,674 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:50:51,681 - logger - WARNING - user tg://user?id=940848268 get_report_tutor_by_date status 405 details: Method Not Allowed
+2024-04-12 13:54:00,132 - logger - INFO - Tutor bot started
+2024-04-12 13:54:00,133 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:54:15,019 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:54:15,065 - logger - WARNING - user tg://user?id=940848268 get_report_tutor_by_date status 405 details: Method Not Allowed
+2024-04-12 13:55:18,772 - logger - INFO - Tutor bot started
+2024-04-12 13:55:18,773 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 13:55:33,991 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:55:34,072 - logger - WARNING - user tg://user?id=940848268 get_report_tutor_by_date status 401 details: Token invalid: Signature has expired
+2024-04-12 13:55:56,990 - logger - INFO - user tg://user?id=940848268 tutor_auth params: user_name=sas
+2024-04-12 13:55:57,333 - logger - INFO - user tg://user?id=940848268 tutor_auth status OK (201)
+2024-04-12 13:55:57,333 - logger - INFO - user sas auth_get_access_token
+2024-04-12 13:55:57,677 - logger - INFO - user sas auth_get_access_token status: 200
+2024-04-12 13:56:14,358 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 13:56:14,388 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date status OK (200)
+2024-04-12 13:58:00,726 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-12 13:58:00,992 - logger - INFO - user tg://user?id=940848268 get_engineers status OK (200)
+2024-04-12 19:25:43,356 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 19:26:14,854 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 21:25:26,662 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 21:26:52,323 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 21:27:20,351 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date
+2024-04-12 21:27:20,410 - logger - INFO - user tg://user?id=940848268 get_report_tutor_by_date status OK (200)
+2024-04-12 21:27:25,215 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 21:59:44,559 - logger - INFO - Tutor bot started
+2024-04-12 21:59:44,560 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 22:01:38,101 - logger - INFO - Tutor bot started
+2024-04-12 22:01:38,101 - logger - INFO - Tutor bot refresh_access_tokens
+2024-04-12 22:04:35,839 - logger - INFO - user tg://user?id=940848268 tutor_auth params: user_name=анастасия сильченко
+2024-04-12 22:04:36,065 - logger - INFO - user tg://user?id=940848268 tutor_auth status OK (201)
+2024-04-12 22:04:36,065 - logger - INFO - user анастасия сильченко auth_get_access_token
+2024-04-12 22:04:36,290 - logger - INFO - user анастасия сильченко auth_get_access_token status: 200
+2024-04-12 22:05:02,836 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-12 22:05:02,849 - logger - INFO - user tg://user?id=940848268 get_engineers status OK (200)
+2024-04-12 22:05:11,233 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: engineers_number=2
+2024-04-12 22:05:11,244 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor status OK (200)
+2024-04-12 22:05:14,804 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor params: engineers_number=2
+2024-04-12 22:05:14,817 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor status OK (200)
+2024-04-12 22:05:24,546 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor params: engineers_number=2, amount=200
+2024-04-12 22:05:24,558 - logger - INFO - user tg://user?id=940848268 make_penalty_tutor status OK (201)
+2024-04-12 22:05:30,593 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor params: engineers_number=2
+2024-04-12 22:05:30,601 - logger - INFO - user tg://user?id=940848268 get_penalty_tutor status OK (200)
+2024-04-12 22:05:35,614 - logger - INFO - user tg://user?id=940848268 get_engineers
+2024-04-12 22:05:35,622 - logger - INFO - user tg://user?id=940848268 get_engineers status OK (200)
+2024-04-12 22:05:38,052 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor params: engineers_number=1
+2024-04-12 22:05:38,059 - logger - INFO - user tg://user?id=940848268 get_current_engineer_by_tutor status OK (200)
+2024-04-12 22:05:42,316 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=3
+2024-04-12 22:05:42,421 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-12 22:05:55,808 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor
+2024-04-12 22:05:55,818 - logger - INFO - user tg://user?id=940848268 get_short_orders_by_tutor status OK (200)
+2024-04-12 22:06:00,953 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor params: order_number=666
+2024-04-12 22:06:00,969 - logger - INFO - user tg://user?id=940848268 get_full_order_by_tutor status OK (200)
+2024-04-12 22:06:11,014 - logger - INFO - user tg://user?id=940848268 get_stages_tutor
+2024-04-12 22:06:11,044 - logger - INFO - user tg://user?id=940848268 get_stages_tutor status OK (200)

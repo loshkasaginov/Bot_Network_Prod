@@ -1,10 +1,8 @@
-import json
-from Bots.logger.logger import logger
-import aiohttp
-import asyncio
-from json import *
 import aiofiles
+import aiohttp
+
 from Bots.DB.sqlite_db import Db
+from Bots.logger.logger import logger
 
 base_url = 'http://127.0.0.1:8000/'
 async def super_user_auth(data:dict, link:str)->bool:
@@ -731,4 +729,22 @@ async def download_photo(photo_url: str, filename: str):
             response_json = await response.json()
             logger.warn(
                 f'download_photo status {response.status} details: {response_json["detail"]}')
+            return False
+
+
+async def get_report_tutor_by_date(start_time:str,end_time:str, link:str):
+    async with aiohttp.ClientSession() as session:
+        url = f'{base_url}orders/get/by_date'
+        params={
+            'start_time': start_time,
+            'end_time': end_time
+        }
+        headers = await get_headers(link)
+        async with session.get(url, params=params, headers=headers) as response:
+            if response.status == 200:
+                logger.info(f'user {link} get_report_tutor_by_date status OK (200)')
+                return await response.json()
+            response_json = await response.json()
+            logger.warn(
+                f'user {link} get_report_tutor_by_date status {response.status} details: {response_json["detail"]}')
             return False
